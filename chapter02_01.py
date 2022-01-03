@@ -23,4 +23,12 @@ print('IT News', end=' ')
 print('Web Site')
 
 # file 옵션
-import 
+import sys
+
+print('Learn Python', file=sys.stdout)
+print()
+
+# format 사용(d 정수, s 문자열, f 실수)
+print('%s %s' % ('one', 'two'))     # 문자열 형식
+print('{} {} {}'.format('one', 'two', '3'))     # 형식에 구애받지 않음
+print('{1} {0}'.format('one', 'two'))   # 1번째 요소에는 one이 저장, 0번째 요소에는 two가 저장됨
