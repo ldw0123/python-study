@@ -3,7 +3,7 @@
 # print 사용법
 
 # 기본 출력
-print('Python Start!')
+print('Python Start!') # 모두 같은 표현
 print("Python Start!")
 print('''Python start!''')
 print("""Python start!""")
